@@ -1,0 +1,12 @@
+.boton-negro {
+    @include boton($negro, inline-block);
+}
+.boton-negro:hover {
+    background-color: $verde;
+    color: $blanco;
+}
+.alinear-derecha{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}

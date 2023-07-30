@@ -1,0 +1,13 @@
+/*seccion de la carpeta base*/
+@import "base/normalize";
+@import "base/variables";
+@import 'base/mixins';
+@import "base/globales";
+@import "base/botones";
+/*seccion de la carpeta componentes UI*/
+@import "layout/header";
+@import "layout/navegacion";
+@import "layout/seccionm";
+@import "layout/footer";
+@import "layout/sitiosm";
+@import "layout/trasportet";

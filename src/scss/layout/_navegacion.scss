@@ -1,0 +1,33 @@
+.barranav  {
+    display: flex;
+    flex-direction: column;
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.navegacion{
+    @include tablet{
+        display: flex;
+        align-items: center;
+    }
+    a{
+        color: $blanco;
+        font-size: 2.2rem;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        @include tablet {
+            margin-right: 2rem;
+            font-size: 1.8rem;
+            &:last-of-type{
+                margin-right: 0;
+            }    
+        }
+        transition: all .8s ease;
+    }
+    a:hover{
+        color: $verde;
+        cursor: pointer;
+    }
+}

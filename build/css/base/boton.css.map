@@ -1,0 +1,1 @@
+{"version":3,"sources":["base/boton.scss","base/boton.css"],"names":[],"mappings":"AAAA,OACI,mBCCJ","file":"boton.css","sourcesContent":[".boton {\r\n    background-color: ne;\r\n}",".boton {\n  background-color: ne;\n}"]}
